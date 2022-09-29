@@ -1,0 +1,35 @@
+{
+  "name": "ndarray-tensordot",
+  "version": "0.1.0",
+  "description": "Computes the dot product of ndarrays",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "ndarray-fill": "^1.0.2",
+    "ndarray-scratch": "^1.2.0"
+  },
+  "devDependencies": {
+    "ndarray-ops": "^1.2.2",
+    "tape": "^5.6.1",
+    "zeros": "^1.0.0"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/filonik/ndarray-tensordot.git"
+  },
+  "keywords": [
+    "ndarray",
+    "tensordot"
+  ],
+  "author": "Daniel Filonik",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/filonik/ndarray-tensordot/issues"
+  }
+}
